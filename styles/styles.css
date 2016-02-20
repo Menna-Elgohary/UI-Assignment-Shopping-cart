@@ -1,0 +1,159 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.header1{
+  border-bottom: inset thin;
+  line-height: 80px;
+  
+}
+.left-nav{
+display: inline-block;
+position: relative;
+
+
+}
+
+.right-nav{
+  display: inline-block;
+  margin:0 0 0 300;
+}
+.left-nav li {
+  display: inline-block;
+  margin: 0 25px;
+}
+
+.right-nav li {
+  display: inline-block;
+  margin-left: 50px;
+}
+.content h1{
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 75px;
+
+}
+.content h2{
+  text-transform: uppercase;
+  font-weight: lighter;
+  font-size: 35px;
+}
+.intro p{
+  font-family: serif;
+  color: grey;
+  font-style: italic;
+  font-size: 30px;
+}
+.signup p{
+  font-family: serif;
+  color: grey;
+  font-style: italic;
+  font-size: 20px;
+}
+.content{
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+ .email{
+  display: inline-block;
+}
+
+.emailButton {
+	display: inline-block;
+}
+.email input[type="text"] {
+  width:400px;
+  height:45px;
+  margin: 0 auto;
+}
+.emailButton input[type="submit"] {
+  width:60px;
+  height:45px;
+  background-color: orange;
+  color: white;
+  border:none;
+}
+.searchbutton input[type="submit"] {
+  background-image:url("/images/button.png");
+  background-repeat: no-repeat;
+  width:40px;
+  height:40px;
+  border: none;
+}
+.newarrivals input[type="submit"]{
+  width:220px;
+  height:60px;
+  border: none;
+  background-color: white;
+  color: black;
+  border: solid;
+  border-width: 0.5px; 
+  border-color: grey;
+  text-transform: uppercase;
+  font-size: 13px; 
+  margin-top: 50px;
+}
+.content img{
+  width: 1000px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+}
+.collection {
+  float: left;
+  width: 25%;
+  border-left: inset thin;
+}
+.site {
+  float: left;
+  width: 25%;
+  border-left: inset thin;
+}
+.shop {
+  float: left;
+  width: 25%;
+  border-left: inset thin;
+  padding-left: 0px;
+}
+.social {
+  float: left;
+  width: 25%;
+  border-left: inset thin;
+}
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+}
+.clearfix::after {
+  clear: both;
+}
+.clearfix{
+  border-top: inset thin;
+  padding-top: 10px;
+  font-size: 14px;
+
+
+}
+.socialmedia li{
+  display: inline-block;
+  font-size: 1px;
+}
+.social p,h5{
+  padding-left:40px;
+}
+.clearfix h5{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+* ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  text-transform: none;
+  color: black;
+}
