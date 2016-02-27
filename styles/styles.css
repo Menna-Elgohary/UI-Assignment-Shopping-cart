@@ -19,22 +19,40 @@ a{
 
 .user-actions{
   float:left;
-  width:40%;
+  width: 30%;
+  
 }
 .main-navigation{
   float: left;
-  width:50%;
+  width: 40%;
 }
+
 .logo{
   float: left;
-  width:10%;
+}
+
+.logout{
+  color:orange;
+}
+
+.search-wrraper{
+  float: left;
+  width: 30%;
+  margin-top: 10px;
 }
 .searchbutton{
-  border: solid thin;
-  width: 50px;
-  height: 50px;
-  display: inline-block;
-  background-image: url(../images/button.png)
+  width: 40px;
+  height:40px;
+  background-image: url(../images/button.jpg);
+  background-position: center;
+  position: absolute;
+  top:30px;
+
+}
+.search-wrraper input[type="text"]{
+  width: 150px;
+  height: 40px;
+  position: relative;
 }
 
 .main-navigation li {
@@ -44,14 +62,12 @@ a{
 
 .user-actions li {
   display: inline-block;
-  margin-left: 50px;
+  margin: 0 5px;
 }
-
 .content h1{
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 75px;
-
 }
 .content h2{
   text-transform: uppercase;
@@ -75,12 +91,11 @@ a{
   text-align: center;
   margin-top: 100px;
   margin-bottom: 50px;
-
 }
- .emailtext {
-  width:400px;
-  height:45px;
-  margin: 0 auto;
+.emailtext {
+ width:400px;
+ height:45px;
+ margin: 0 auto;
 }
 .emailButton{
   width:60px;
@@ -89,7 +104,6 @@ a{
   color: white;
   border:none;
 }
-
 .newarrivals {
   width:220px;
   height:60px;
@@ -107,7 +121,6 @@ a{
   width: 1000px;
   margin-top: 50px;
   margin-bottom: 50px;
-
 }
 .collection {
   float: left;
@@ -115,14 +128,12 @@ a{
   border-right: inset thin;
 }
 .collection:last-child li{
-   display: inline-block;
+  display: inline-block;
   font-size: 1px;
-
 }
 .collection:last-child{
   border: none;
 }
-
 .collection:last-child p,h5{
   padding-left:40px;
 }
@@ -143,49 +154,41 @@ a{
   display: inline-block;
   font-size: 1px;
 }
-
 .clearfix h5{
   text-transform: uppercase;
   font-weight: bold;
 }
-
 .item a {
   width:220px;
-  height:160px;
+  height:220px;
   display: inline-block;
   background-color: white;
-  border: solid;
+  border: inset thin grey;
   border-width: 0.5px; 
   border-color: grey;
   margin-top: 0 auto;
-
-  }
-  .item{
-    float: left;
-    width: 25%;
-   
-  }
-
-  .men-content h1{
+}
+.item{
+  float: left;
+  width: 25%;
+  margin-top: 20px;
+}
+.men-content h1{
   text-transform: uppercase;
   font-weight: lighter;
   font-size: 35px;
-  margin-bottom: -10px;
-
 }
 .men-content a {
- font-family: serif;
+  font-family: serif;
   color: grey;
   font-style: italic;
   font-size: 20px;
-   text-decoration: underline;
+  text-decoration: underline;
   color: grey;
 }
 .men-content{
   text-align: center;
   margin-top: 50px;
-
-
 }
 .clearfix-mencontent::before,
 .clearfix-mencontent::after {
@@ -205,20 +208,25 @@ a{
 }
 .model{
   margin-top: 50px;
+  margin-bottom: 50px;
  }
  .lookbook{
   border-top: inset thin grey;
- line-height: 100px;
+  line-height: 200px;
+ }
+ .item p{
+  font-weight: bold;
  }
 
 * ul{
   list-style: none;
 }
+
 * ol{
   list-style: none;
   text-transform: uppercase;
-  
 }
+
 * ol li{
   display: inline-block;
 }
