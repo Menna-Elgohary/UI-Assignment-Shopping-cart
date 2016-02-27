@@ -194,6 +194,9 @@ position: relative;
   content: "";
   display: table;
 }
+.clearfix-mencontent::after {
+  clear: both;
+}
 
 .model{
   margin-top: 50px;
