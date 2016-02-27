@@ -12,25 +12,34 @@ a{
   max-width: 1100px;
   margin: 0 auto;
 }
-
-
 .nav-wrapper{
   border-bottom: inset thin;
   line-height: 80px;
-  
-}
-.main-navigation{
-display: inline-block;
-position: relative;
 }
 
 .user-actions{
-  display: inline-block;
-  margin:0 0 0 -25;
+  float:left;
+  width:40%;
 }
+.main-navigation{
+  float: left;
+  width:50%;
+}
+.logo{
+  float: left;
+  width:10%;
+}
+.searchbutton{
+  border: solid thin;
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-image: url(../images/button.png)
+}
+
 .main-navigation li {
   display: inline-block;
-  margin: 0 25px;
+  margin: 0 10px;
 }
 
 .user-actions li {
@@ -38,11 +47,6 @@ position: relative;
   margin-left: 50px;
 }
 
-.vv{
-  background-image: url("images/basket.jpg");
-  background-position: left;
-  background-size: 50px;
-}
 .content h1{
   text-transform: uppercase;
   font-weight: lighter;
@@ -85,17 +89,10 @@ position: relative;
   color: white;
   border:none;
 }
-.searchbutton  {
-  background-image:url("/images/button.png");
-  background-repeat: no-repeat;
-  width:40px;
-  height:40px;
-  border: none;
-}
+
 .newarrivals {
   width:220px;
   height:60px;
-  
   background-color: white;
   color: black;
   border: solid;
@@ -154,18 +151,19 @@ position: relative;
 
 .item a {
   width:220px;
-  height:60px;
+  height:160px;
+  display: inline-block;
   background-color: white;
   border: solid;
   border-width: 0.5px; 
   border-color: grey;
-  padding: 110px 90px;
+  margin-top: 0 auto;
 
   }
   .item{
     float: left;
     width: 25%;
-    margin-top: 130px;
+   
   }
 
   .men-content h1{
@@ -181,13 +179,13 @@ position: relative;
   font-style: italic;
   font-size: 20px;
    text-decoration: underline;
-  
   color: grey;
 }
 .men-content{
   text-align: center;
-  margin-top: 100px;
-  margin-bottom: 50px;
+  margin-top: 50px;
+
+
 }
 .clearfix-mencontent::before,
 .clearfix-mencontent::after {
@@ -197,13 +195,30 @@ position: relative;
 .clearfix-mencontent::after {
   clear: both;
 }
-
+.clear::before,
+.clear::after {
+  content: "";
+  display: table;
+}
+.clear::after {
+  clear: both;
+}
 .model{
   margin-top: 50px;
-  border-bottom: thin grey normal;
-}
+ }
+ .lookbook{
+  border-top: inset thin grey;
+ line-height: 100px;
+ }
 
 * ul{
   list-style: none;
 }
-
+* ol{
+  list-style: none;
+  text-transform: uppercase;
+  
+}
+* ol li{
+  display: inline-block;
+}
