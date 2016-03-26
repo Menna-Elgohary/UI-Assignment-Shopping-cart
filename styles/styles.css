@@ -16,25 +16,28 @@ a{
   border-bottom: inset thin;
   line-height: 80px;
 }
-
 .user-actions{
   float:left;
-  width: 30%;
-  
+  width: 40%;
 }
 .main-navigation{
   float: left;
+  width: 60%;
+}
+.user-actions-login{
+  float:left;
+  width: 30%;
+}
+.main-navigation-login{
+  float: left;
   width: 40%;
 }
-
 .logo{
   float: left;
 }
-
 .logout{
   color:orange;
 }
-
 .search-wrraper{
   float: left;
   width: 30%;
@@ -47,20 +50,25 @@ a{
   background-position: center;
   position: absolute;
   top:30px;
-
 }
 .search-wrraper input[type="text"]{
   width: 150px;
   height: 40px;
   position: relative;
 }
-
 .main-navigation li {
   display: inline-block;
   margin: 0 10px;
 }
-
 .user-actions li {
+  display: inline-block;
+  margin: 0 5px;
+}
+.main-navigation-login li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.user-actions-login li {
   display: inline-block;
   margin: 0 5px;
 }
@@ -96,6 +104,7 @@ a{
  width:400px;
  height:45px;
  margin: 0 auto;
+ padding-left: 10px;
 }
 .emailButton{
   width:60px;
