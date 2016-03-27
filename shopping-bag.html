@@ -1,14 +1,13 @@
 <!doctype html>
 <html>
-<head>
-	<title>Shopping Bag</title>
-	<link rel="stylesheet" href="styles/normalize.css">
-   		 <link rel="stylesheet" href="styles/styles.css">
-   		 <link rel="stylesheet" href="styles/SBstyles.css">
-</head>
-<body class="container">
-
-	<section class="nav-wrapper container clear" >
+	<head>
+		<title>Shopping Bag</title>
+		<link rel="stylesheet" href="styles/normalize.css">
+	   		 <link rel="stylesheet" href="styles/styles.css">
+	   		 <link rel="stylesheet" href="styles/SBstyles.css">
+	</head>
+	<body class="container">
+		<section class="nav-wrapper container clear" >
 			<nav class="main-navigation ">
 				<h1 class="logo"><a href="#" ><img src="images/sh.jpg"></a></h1>
 				<ul>
@@ -27,13 +26,11 @@
 				</ul>
 			</div>
 		</section>
-
 		<section class="shoppingBag-content">
 			<div class=" titles">
-					<h1>your shopping bag</h1>
-					<p >Items reserved for limited time only</p>
+				<h1>your shopping bag</h1>
+				<p >Items reserved for limited time only</p>
 			</div>
-
 			<div class="items-table">
 				<table>
 					<tr>
@@ -142,157 +139,132 @@
 			</div>
 			<div class="break-bar">
 				<img src="images/content1.jpg">
-
 			</div>
-			<div class="shipping-address">
-				<div class=" titles">
-					<h1>shipping address</h1>
-					<p >All fields are required</p>
-				</div>
-				<div  class="shippingAddress-fields">
-					<h2>select delievery method</h2>
-					<select>
-					  <option value="volvo">DHL international</option>
-					  <option value="saab">Saab</option>
-					</select>
-					<div class="field-wrapper">
-						<div >
-						  <h2>full name</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
-					    </div>	
-						<div >
-						  <h2>last name</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
+			<form>
+				<div class="shipping-address">
+					<div class=" titles">
+						<h1>shipping address</h1>
+						<p >All fields are required</p>
+					</div>
+					<div  class="shippingAddress-fields">
+						<h2>select delievery method</h2>
+						<select>
+						  <option value="volvo">DHL international</option>
+						  <option value="saab">Saab</option>
+						</select>
+						<div class="field-wrapper">
+							<div >
+							  <h2>full name</h2>
+							  <input type="input">
+							 </div>	
+							<div >
+							 <h2>last name</h2>
+							 <input type="input">
+							</div>
 						</div>
-					</div>
-					<div >
-					  <h2>address</h2>
-					  <p>(line1)</p>
-					  <form>
-					  	<input type="input">
-					  </form>	
-					</div>
-					<div >
-					  <h2>address</h2>
-					  <p>(line2)</p>
-					  <form>
-					  	<input type="input">
-					  </form>	
-					</div>	
-					<div class="field-wrapper">
 						<div >
-						  <h2>city</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
+						  <h2>address</h2>
+						  <p>(line1)</p>
+						  <input type="input">
+						</div>
+						<div >
+						  <h2>address</h2>
+						  <p>(line2)</p>
+						  <input type="input">
+						</div>	
+						<div class="field-wrapper">
+							<div >
+							  <h2>city</h2>
+							  <input type="input">
+							</div>	
+						    <div >
+							  <h2>postal code</h2>
+							  <input type="input">
+							</div>
 					    </div>	
-					    <div >
-						  <h2>postal code</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
-					    </div>
-				    </div>	
-				    <div class"field-wrapper">
-					    <div >
-						  <h2>phone number</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
-					    </div>	
-					    <div >
-						  <h2>email</h2>
-						  <form>
-						  	<input type="input">
-						  </form>	
-					    </div>	
-				    </div>						
-				</div>
-				<div class="fields-checkbox">
-					<form>
+					    <div class"field-wrapper">
+						    <div >
+							  <h2>phone number</h2>
+							  <input type="input">
+							</div>	
+						    <div >
+							  <h2>email</h2>
+							  <input type="input">
+							</div>	
+					    </div>						
+					</div>
+					<div class="fields-checkbox">
 						<input type="checkbox"> <p>Use this address for Billing</p>
-					</form>
+					</div>
 				</div>
-			</div>
-			<div class="break-bar">
-				<img src="images/content1.jpg">
-
-			</div>
-			<div class="payment-options">
-				<div class=" titles">
-					<h1>payment options</h1>
-					<p >All fields are required</p>
+				<div class="break-bar">
+					<img src="images/content1.jpg">
 				</div>
-				<div class="total-cost">
-					<p>Subtotal: &#8364;567,95</p>
-					<p>Shipping: &#8364;15.00</p>
-					<p>Total: &#8364;582,95</p>
-					
-				</div>
-				<div  class="payment-method">
-					<h2>select payment method</h2>
-					<select>
-					  <option >Credit card </option>
-					  <option ></option>
-					</select>
-					<form>
+				<div class="payment-options">
+					<div class=" titles">
+						<h1>payment options</h1>
+						<p >All fields are required</p>
+					</div>
+					<div class="total-cost">
+						<p>Subtotal: &#8364;567,95</p>
+						<p>Shipping: &#8364;15.00</p>
+						<p>Total: &#8364;582,95</p>
+						
+					</div>
+					<div  class="payment-method">
+						<h2>select payment method</h2>
+						<select>
+						  <option >Credit card </option>
+						  <option ></option>
+						</select>
 						<button class="orderbutton" > <p>order now</p></button>
-					</form>
-				</div>	
-			</div>
-		
-
-
-		</section>
-
-
-		<footer >
-			<div class="clearfix container">
-				<div class="collection">
-				<h5>Collection</h5>
-					<ul>
-						<li><a href="#"> Woman</a></li>
-						<li><a href="#"> Men</a></li>
-						<li><a href="#"> Kids</a></li>
-						<li><a href="#"> Comming Soon</a></li>
-					</ul>
+						
+					</div>	
 				</div>
+			</form>
+			</section>
+			<footer >
+				<div class="clearfix container">
+					<div class="collection">
+					<h5>Collection</h5>
+						<ul>
+							<li><a href="#"> Woman</a></li>
+							<li><a href="#"> Men</a></li>
+							<li><a href="#"> Kids</a></li>
+							<li><a href="#"> Comming Soon</a></li>
+						</ul>
+					</div>
 
-				<div class="collection">
-					<h5>Site</h5>
-					<ul>
-						<li><a href="#"> Terms of Service</a></li>
-						<li><a href="#"> Privacy Policy</a></li>
-						<li><a href="#"> Copyright Policy</a></li>
-						<li><a href="#"> Press Kit</a></li>
-						<li><a href="#"> Support</a></li>
-					</ul>
+					<div class="collection">
+						<h5>Site</h5>
+						<ul>
+							<li><a href="#"> Terms of Service</a></li>
+							<li><a href="#"> Privacy Policy</a></li>
+							<li><a href="#"> Copyright Policy</a></li>
+							<li><a href="#"> Press Kit</a></li>
+							<li><a href="#"> Support</a></li>
+						</ul>
+					</div>
+					<div class="collection">
+						<h5>shop</h5>
+						<ul >
+							<li><a href="#"> About us</a></li>
+							<li><a href="#"> Shipping Methods</a></li>
+							<li><a href="#"> Career</a></li>
+							<li><a href="#"> Contact</a></li>
+						</ul>
+					</div>
+					<div class="collection">
+						<h5>social</h5>
+						<p><small> Shoper is made with love in Warsaw</small></p>
+						<p><small> 2014 &copy; All rights reserved.El Passion </small></p>
+						<ul class="socialmedia">
+							<li><a href="#"> <img src="images/twitter.jpg"></a></li>
+							<li><a href="#"> <img src="images/facebook.jpg"></a></li>
+							<li><a href="#"> <img src="images/instagram.jpg"></a></li>
+						</ul>
+					</div>
 				</div>
-				<div class="collection">
-					<h5>shop</h5>
-					<ul >
-						<li><a href="#"> About us</a></li>
-						<li><a href="#"> Shipping Methods</a></li>
-						<li><a href="#"> Career</a></li>
-						<li><a href="#"> Contact</a></li>
-					</ul>
-				</div>
-				<div class="collection">
-					<h5>social</h5>
-					<p><small> Shoper is made with love in Warsaw</small></p>
-					<p><small> 2014 &copy; All rights reserved.El Passion </small></p>
-					<ul class="socialmedia">
-						<li><a href="#"> <img src="images/twitter.jpg"></a></li>
-						<li><a href="#"> <img src="images/facebook.jpg"></a></li>
-						<li><a href="#"> <img src="images/instagram.jpg"></a></li>
-					</ul>
-				</div>
-			</div>
-		</footer>
-
-</body>
+			</footer>
+	</body>
 </html>

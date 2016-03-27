@@ -20,9 +20,9 @@ table {
  width: 100%;
 }
 tr{
-   border-bottom: 1px solid #e3e3e3;
-   padding-top: 20px;
-   color: #4a4a4a;
+  border-bottom: 1px solid #e3e3e3;
+  padding-top: 20px;
+  color: #4a4a4a;
 }
 tr:nth-child(odd){
   background-color: #fcfcfc;
@@ -62,7 +62,6 @@ tr a {
   font-weight: bold;
   font-size: 15px;
 }
-
 .description p{
   font-family: sans-serif;
   color: #5e5e5e;
@@ -79,7 +78,6 @@ tr a {
   background-image: url(../images/delete.jpg);
   background-position: center;
   border:none;
- 
 }
 .total p{
   color: #f57f36;
@@ -104,11 +102,9 @@ tr a {
   width: 15px;
   height: 15px;
   background-position: center;
-  position: absolute;
   background-repeat: no-repeat;
   position: relative;
   border: none;
- 
 }
 .decrement-QTY{
   background-image: url(../images/minus.png);
@@ -117,7 +113,6 @@ tr a {
   background-position: center;
   position: absolute;
   background-repeat: no-repeat;
-  position: absolute;
   border: none;
 }
 .break-bar{
@@ -134,7 +129,6 @@ tr a {
 .shippingAddress-fields {
  padding-left: 250px;
  color:#4f4f4f;
-  
 }
 .shippingAddress-fields div{
   margin-top: 20px;
@@ -142,7 +136,7 @@ tr a {
 select{
   width: 650px;
   height: 45px;
-   font-size: 15px;
+  font-size: 15px;
   color: #5e5e5e;
   padding-left: 10px;
  }
@@ -194,7 +188,7 @@ select{
 }
 .payment-method h2{
   padding-right: 485px;
-   text-transform: uppercase;
+  text-transform: uppercase;
   font-size: 12px;
   font-weight: normal;
 }
@@ -205,7 +199,7 @@ select{
   background-repeat: no-repeat;
 }
 .orderbutton{
-   width:180px;
+  width:180px;
   height:50px;
   background-color: #f57f36;
   color: white;
