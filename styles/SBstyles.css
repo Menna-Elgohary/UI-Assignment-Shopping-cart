@@ -157,9 +157,7 @@ select{
   font-size: 15px;
   font-weight: normal;
 }
-.shippingAddress-fields h2,p{
-  display: inline-block;
-}
+
 .shippingAddress-fields p{
   font-size: 12px;
 }
